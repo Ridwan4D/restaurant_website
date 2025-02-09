@@ -26,6 +26,18 @@
     }
 
     /* ================ header section ends here ================= */
+    /* ================ daily offer section start here ================= */
+    .daily_offer_body {
+        flex-direction: column;
+    }
+    .daily_offer_left_img {
+        width: 250%;
+        height: 606px;
+        /* object-fit: cover;
+        object-position: left; */
+    }
+
+    /* ================ daily offer section ends here ================= */
 }
 
 
@@ -86,7 +98,6 @@
     /* ================ banner section start here ================= */
     #banner_section {
         height: auto;
-        margin-top: 44px;
     }
 
     #banner_section::after {
@@ -128,18 +139,37 @@
     /* ================ banner section end here ================= */
 
     /* ================ daily offer section start here ================= */
+    #daily_offer_section {
+        padding: 40px 0;
+    }
+
     .daily_offer_body {
         flex-direction: column;
+    }
+
+    .daily_offer_header {
+        margin-bottom: 32px;
+        align-items: start;
+        text-align: left;
     }
 
     .daily_card_heading {
         margin-bottom: 10px;
     }
 
+    .offer_header_title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .offer_header_desc {
+        display: none;
+    }
+
     .daily_offer_left_img {
         width: 250%;
         height: 556px;
-        /* object-fit: cover; */
+        object-fit: cover;
         object-position: left;
     }
 
