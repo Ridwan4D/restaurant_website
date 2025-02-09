@@ -48,7 +48,8 @@
 
     /* ================ header section ends here ================= */
     /* ================ choose us section start here ================= */
-    .choose_container {
+    .choose_container,
+    .newsletter_container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -173,7 +174,8 @@
 
     }
 
-    .border_style_div {
+    .border_style_div,
+    .newsletter_border_style_div {
         display: none;
     }
 
@@ -346,13 +348,48 @@
     }
 
     /* ================ contact section ends here ================= */
-    
+
     /* ================ map section starts here ================= */
-    .location_image{
+    .location_image {
         height: 490px;
         object-position: center;
     }
+
     /* ================ map section ends here ================= */
+
+
+    /* ================ newsletter section starts here ================= */
+    #newsletter_section {
+        padding: 40px 0;
+    }
+
+    .newsletter_container {
+        flex-direction: column;
+    }
+
+    .newsletter_content_heading {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 14px;
+    }
+
+    .newsletter_desc {
+        font-size: 8.35px;
+        padding-right: 10%;
+        margin-bottom: 18px;
+    }
+
+    .newsletter_input {
+        font-size: 13px;
+        padding: 3px 16px;
+    }
+
+    .newsletter_image {
+        height: 236.7px;
+        object-fit: cover;
+    }
+
+    /* ================ newsletter section ends here ================= */
 
     /* ================ footer section start here ================= */
     .footer_top_layer {
