@@ -361,7 +361,147 @@
 /* ================ banner section ends here ================= */
 
 
+/* ================ checkout section start here ================= */
+#checkout_section {
+    padding: 80px 0;
+}
 
+.checkout_header {
+    max-width: 573px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.checkout_heading {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.checkout_desc {
+    font-size: 18px;
+    color: #6C6C6C;
+}
+
+.checkout_body {
+    margin-top: 64px;
+}
+
+.checkout_tab_container {
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 48px;
+}
+
+.checkout_tab {
+    padding: 16px 24px;
+    border: 2px solid var(--primary-color);
+    border-radius: 32px;
+}
+
+.checkout_tab:hover {
+    cursor: pointer;
+}
+
+.checkout_tab:active {
+    background-color: var(--primary-color);
+}
+
+/* ================ checkout section ends here ================= */
+
+
+/* ================ online reservation section start here ================= */
+#online_reservation {
+    position: relative;
+    height: 660px;
+    display: flex;
+    padding: 0 5%;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+#online_reservation::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/image/home/reserve.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(7px);
+    z-index: -1;
+}
+
+.reserve_header {
+    max-width: 376px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 64px;
+}
+
+.reserve_heading {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.reserve_desc {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.reservation_form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.input_group {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    padding: 16px;
+    background: rgba(214, 213, 213, 0.404);
+    width: 100%;
+    position: relative;
+}
+
+.input_group input,
+.input_group select {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    padding-right: 30px;
+    /* Space for icon */
+}
+
+.input_group input::placeholder,
+.input_group select {
+    color: white;
+}
+
+#reservation_button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* ================ online reservation section ends here ================= */
 
 
 

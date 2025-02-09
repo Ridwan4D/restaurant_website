@@ -257,6 +257,55 @@
 
     /* ================ daily offer section end here ================= */
 
+    /* ================ checkout section start here ================= */
+    #checkout_section{
+        padding: 34px 0;
+    }
+    .checkout_heading,
+    .reserve_heading {
+        font-size: 32px;
+    }
+
+    .checkout_desc {
+        display: none;
+    }
+
+    .checkout_body {
+        margin-top: 17.12px;
+    }
+
+    .checkout_tab_container {
+        gap: 9.69px;
+    }
+
+    .checkout_tab {
+        padding: 6.69px 10.54px;
+        font-size: 9.69px;
+    }
+
+    /* ================ checkout section end here ================= */
+
+
+    /* ================ online reservation section start here ================= */
+    #online_reservation {
+        padding: 40px 0 40px;
+        height: auto;
+    }
+
+    .reserve_header {
+        margin-bottom: 20.25px;
+    }
+
+    .reserve_desc {
+        display: none;
+    }
+
+    .reservation_form {
+        grid-template-columns: 1fr;
+    }
+
+    /* ================ online reservation section end here ================= */
+
     /* ================ footer section start here ================= */
     .footer_top_layer {
         flex-direction: column;
