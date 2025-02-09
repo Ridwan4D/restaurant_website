@@ -127,6 +127,41 @@
 
     /* ================ banner section end here ================= */
 
+    /* ================ daily offer section start here ================= */
+    .daily_offer_body {
+        flex-direction: column;
+    }
+
+    .daily_card_heading {
+        margin-bottom: 10px;
+    }
+
+    .daily_offer_left_img {
+        width: 250%;
+        height: 556px;
+        /* object-fit: cover; */
+        object-position: left;
+    }
+
+    .daily_offer_card_img {
+        height: 92px;
+        width: 83.8px;
+    }
+
+    .daily_card_title,
+    .daily_card_price {
+        font-size: 16px;
+        line-height: 46px;
+    }
+
+    .daily_card_desc {
+        font-size: 12px;
+        line-height: 14.58px;
+        padding-right: 0;
+    }
+
+    /* ================ daily offer section end here ================= */
+
     /* ================ footer section start here ================= */
     .footer_top_layer {
         flex-direction: column;
