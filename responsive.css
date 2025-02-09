@@ -14,6 +14,15 @@
     }
 
     /* ================ choose us section end here ================= */
+    /* ================ contact section starts here ================= */
+    #contact_section {
+        padding-top: 70px;
+    }
+
+    .contact_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
 }
 
 @media(max-width: 768px) {
@@ -60,6 +69,15 @@
     }
 
     /* ================ daily offer section ends here ================= */
+    /* ================ contact section starts here ================= */
+    #contact_section {
+        padding-top: 70px;
+    }
+
+    .contact_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
 }
 
 
@@ -258,9 +276,10 @@
     /* ================ daily offer section end here ================= */
 
     /* ================ checkout section start here ================= */
-    #checkout_section{
+    #checkout_section {
         padding: 34px 0;
     }
+
     .checkout_heading,
     .reserve_heading {
         font-size: 32px;
@@ -305,6 +324,35 @@
     }
 
     /* ================ online reservation section end here ================= */
+
+    /* ================ contact section starts here ================= */
+    #contact_section {
+        padding-top: 40px;
+    }
+
+    .contact_container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .contact-heading {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .home_contact-location> :nth-child(2) {
+        text-align: left;
+        width: auto;
+    }
+
+    /* ================ contact section ends here ================= */
+    
+    /* ================ map section starts here ================= */
+    .location_image{
+        height: 490px;
+        object-position: center;
+    }
+    /* ================ map section ends here ================= */
 
     /* ================ footer section start here ================= */
     .footer_top_layer {

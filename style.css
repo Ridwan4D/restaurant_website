@@ -504,9 +504,71 @@
 /* ================ online reservation section ends here ================= */
 
 
+/* ================ contact section starts here ================= */
+#contact_section {
+    padding-top: 124px;
+}
+
+.contact_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 99px;
+}
+
+.contact-box {
+    display: flex;
+    gap: 24px;
+}
+
+.contact-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.contact-heading~* {
+    margin: 7px 0;
+    font-weight: 600;
+}
+
+.home_contact-location {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+
+.home_contact-location> :nth-child(2) {
+    /* Your styles */
+    text-align: right;
+    color: #807F7E;
+    width: 52%;
+    font-size: 18px;
+}
+
+.home_contact_span {
+    color: #807F7E;
+    margin-left: 16px;
+    font-weight: normal;
+}
+
+/* ================ contact section ends here ================= */
 
 
+/* ================ map section starts here ================= */
+#map_section {
+    margin-top: 64px;
+}
+.location_image{
+    max-height: 556px;
+    max-width: 1240px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+}
 
+/* ================ map section ends here ================= */
 
 
 
