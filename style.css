@@ -46,7 +46,7 @@
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 10px;
 }
 
 .font_bold {
@@ -164,7 +164,8 @@
     color: white;
 }
 
-.banner_content_top {
+.banner_content_top,
+.choose_content_top {
     display: flex;
     gap: 24px;
     align-items: center;
@@ -230,7 +231,54 @@
 
 /* ================ banner section ends here ================= */
 
+/* ================ choose us section starts here ================= */
+#choose_us_section {
+    padding: 160px 0 80px;
+}
 
+.choose_container {
+    gap: 54px;
+}
+
+.choose_us_left {
+    position: relative;
+}
+
+.choose_image {
+    height: 480px;
+    width: 552px;
+    object-fit: cover;
+    /* position: absolute; */
+    border-radius: 8px;
+}
+
+.border_style_div {
+    height: 480px;
+    border: 2.5px solid #FF8A01;
+    border-radius: 8px;
+    position: absolute;
+    top: 23px;
+    left: 26px;
+    width: 552px;
+    z-index: -1;
+}
+
+.choose_content_heading {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 32px;
+}
+
+.choose_content_desc {
+    font-size: 18px;
+    color: #6C6C6C;
+    line-height: 28px;
+    margin-bottom: 40px;
+    padding-right: 10%;
+}
+
+/* ================ choose us section ends here ================= */
 
 
 /* ================ daily offer section starts here ================= */
@@ -273,10 +321,12 @@
     height: 100%;
     width: 100%;
 }
-.daily_offer_right{
+
+.daily_offer_right {
     flex-direction: column;
     gap: 32px;
 }
+
 .daily_offer_card {
     gap: 24px;
 }
