@@ -1,16 +1,30 @@
-@media(max-width:1024px){
-    .container{
+@media(max-width:1024px) {
+    .container {
         padding: 0 15px;
     }
 }
-@media(max-width: 768px){
-    .container{
+
+@media(max-width: 768px) {
+    .container {
         padding: 0 15px;
     }
+
     /* ================ header section start here ================= */
-    .nav_list_container{
+    .nav_list_container {
         display: none;
     }
+
+    /* ================ header section ends here ================= */
+    /* ================ banner section starts here ================= */
+    #banner_section {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .banner_content_heading {
+        font-size: 40px;
+    }
+
     /* ================ header section ends here ================= */
 }
 
@@ -23,10 +37,11 @@
 
 
 /* ================ small device responsive start here ================= */
-@media (min-width: 320px) and (max-width: 480px){
-    .container{
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
         padding: 0 19.58px;
     }
+
     .common_btn {
         padding: 6px 12px;
         font-size: 10px;
@@ -34,53 +49,107 @@
 
 
     /* ================ header section start here ================= */
-    #nav_section{
+    #nav_section {
         padding: 10px 0;
     }
-    .nav_logo{
+
+    .nav_logo {
         font-size: 33px;
     }
-    .nav_list_container{
+
+    .nav_list_container {
         display: none;
     }
-    .nav_btn_container{
+
+    .nav_btn_container {
         gap: 14.41px;
     }
-    .desktop_hamburger_btn{
+
+    .desktop_hamburger_btn {
         display: none;
     }
-    .mobile_hamburger_btn{
+
+    .mobile_hamburger_btn {
         display: block;
         height: 24px;
         width: 24px;
         border-radius: 100%;
         background-color: #fff;
     }
-    .header_message{
+
+    .header_message {
         font-size: 8px;
     }
+
     /* ================ header section end here ================= */
 
+    /* ================ banner section start here ================= */
+    #banner_section {
+        height: auto;
+        margin-top: 44px;
+    }
 
-/* ================ footer section start here ================= */
-    .footer_top_layer{
+    #banner_section::after {
+        background: none;
+    }
+
+    .banner_content_top {
+        display: none;
+    }
+
+    .banner_content_heading {
+        font-size: 32px;
+        line-height: 42px;
+        color: black;
+    }
+
+    .banner_content_desc {
+        font-size: 11px;
+        line-height: 13px;
+        color: black;
+        margin-bottom: 22px;
+    }
+
+    .banner_see_btn {
+        font-size: 15px;
+        padding: 11px 26px;
+    }
+
+    .search_btn {
+        font-size: 15px;
+        padding: 9px 26px;
+        background-color: #ebe9e9;
+    }
+
+    .banner_content_right {
+        display: none;
+    }
+
+    /* ================ banner section end here ================= */
+
+    /* ================ footer section start here ================= */
+    .footer_top_layer {
         flex-direction: column;
         align-items: center;
         text-align: center;
         margin-bottom: 32px;
     }
-    .footer_top_right_heading{
+
+    .footer_top_right_heading {
         text-align: start;
     }
-    .footer_top_list_container{
+
+    .footer_top_list_container {
         flex-direction: column;
         gap: 16px;
         margin-bottom: 32px;
     }
-    .footer_bottom_layer{
+
+    .footer_bottom_layer {
         flex-direction: column;
         text-align: center;
         gap: 32px;
     }
-/* ================ footer section ends here ================= */
+
+    /* ================ footer section ends here ================= */
 }

@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Jomhuria&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* ================ reusable css classes starts here ================= */
-:root{
+:root {
     --primary-color: #FBC04E;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,44 +13,45 @@
     text-decoration: none;
 }
 
-.text_orange{
+.text_orange {
     color: #FBC04E;
 }
 
-.font_poppins{
+.font_poppins {
     font-family: 'Poppins', sans-serif;
 }
 
-.font_jomhuria{
+.font_jomhuria {
     font-family: 'Jomhuria', cursive;
 }
 
-.font_playfair{
+.font_playfair {
     font-family: 'Playfair Display', serif;
 }
 
-.font_cabin{
+.font_cabin {
     font-family: 'Cabin', sans-serif;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex_col{
+.flex_col {
     flex-direction: column;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-.font_bold{
+.font_bold {
     font-weight: 700;
 }
+
 .common_btn {
     padding: 12px 20px;
     border-radius: 32px;
@@ -64,65 +66,78 @@
     transform: scale(1.05);
     cursor: pointer;
 }
+
 /* ================ reusable css classes ends here ================= */
 
 /* ================ header section starts here ================= */
-#nav_section{
+#nav_section {
     background-color: black;
     padding: 16px 0;
 }
-.nav_container{
+
+.nav_container {
     justify-content: space-between;
     align-items: center;
 }
-.nav_logo{
+
+.nav_logo {
     font-size: 64px;
     line-height: 40px;
-    color:#fff;
+    color: #fff;
     font-weight: normal;
 }
-.nav_list_container{
+
+.nav_list_container {
     gap: 40px;
 }
-.nav_link{
+
+.nav_link {
     font-size: 18px;
     line-height: 21.87px;
-    color:#fff;
+    color: #fff;
 }
-.nav_btn_container{
+
+.nav_btn_container {
     gap: 24px;
 }
-.desktop_hamburger_btn{
+
+.desktop_hamburger_btn {
     height: 44px;
     width: 44px;
     border-radius: 100%;
 }
-.desktop_hamburger_btn_img{
+
+.desktop_hamburger_btn_img {
     width: 16px;
     height: 12px;
-    border:none;
+    border: none;
     outline: none;
 }
-.mobile_hamburger_btn{
+
+.mobile_hamburger_btn {
     display: none;
 }
-.header_message_container{
+
+.header_message_container {
     background-color: var(--primary-color);
     padding: 9px 0;
     justify-content: center;
     align-items: center;
 }
-.header_message_span{
+
+.header_message_span {
     font-weight: 500;
     text-decoration: underline;
 }
+
 /* ================ header section ends here ================= */
 
 /* ================ banner section starts here ================= */
-#banner_section{
+#banner_section {
     height: 759px;
     position: relative;
 }
+
 #banner_section::after {
     content: "";
     position: absolute;
@@ -135,52 +150,62 @@
     background-position: center;
     z-index: -1;
 }
-.banner_container{
+
+.banner_container {
     height: 100%;
     justify-content: space-between;
     align-items: center;
 }
-.banner_content_left{
+
+.banner_content_left {
     max-width: 550px;
     width: 100%;
     color: white;
 }
-.banner_content_top{
+
+.banner_content_top {
     display: flex;
     gap: 24px;
     align-items: center;
     margin-bottom: 8px;
 }
-.banner_top_title{
+
+.banner_top_title {
     font-size: 18px;
 }
-.side_line{
+
+.side_line {
     max-width: 100px;
     width: 100%;
     height: 1px;
     border-top: 1px solid var(--primary-color);
 }
-.banner_content_heading{
+
+.banner_content_heading {
     font-size: 56px;
     font-weight: 900;
     line-height: 66px;
     margin-bottom: 24px;
 }
-.banner_content_desc{
+
+.banner_content_desc {
     font-size: 18px;
     line-height: 26px;
     margin-bottom: 48px;
 }
-.banner_btn_container{
+
+.banner_btn_container {
     align-items: center;
     gap: 24px;
 }
-.banner_see_btn{
+
+.banner_see_btn {
     padding: 14px 28px;
     border: 1px solid var(--primary-color);
     font-size: 18px;
 }
-.search_btn{
+
+.search_btn {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -188,11 +213,20 @@
     border: 1px solid var(--primary-color);
     border-radius: 32px;
     background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
-.banner_content_right{
+
+.search_btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.banner_content_right {
     height: 50%;
     align-items: end;
 }
+
 /* ================ banner section ends here ================= */
 
 
@@ -213,45 +247,46 @@
 
 
 /* ================ footer section starts here ================= */
-#footer_section{
+#footer_section {
     background-color: black;
-    color:white;
+    color: white;
     padding: 64px 0 48px;
 }
 
-.footer_top_layer{
+.footer_top_layer {
     justify-content: space-between;
 }
 
-.footer_top_logo{
+.footer_top_logo {
     font-size: 64px;
     line-height: 40px;
     margin-bottom: 32px;
     font-weight: normal;
 }
 
-.footer_top_desc{
+.footer_top_desc {
     font-size: 18px;
     line-height: 28px;
     max-width: 320px;
     margin-bottom: 32px;
 }
 
-.footer_top_list_container{
+.footer_top_list_container {
     flex-wrap: wrap;
     gap: 32px;
     margin-bottom: 64px;
 }
 
-.footer_nav_link{
+.footer_nav_link {
     font-weight: 600;
-    color:#F3F3F3;
+    color: #F3F3F3;
 }
-.footer_top_right{
+
+.footer_top_right {
     gap: 16px;
 }
 
-.footer_bottom_layer{
+.footer_bottom_layer {
     border-top: 1px solid #EAECF0;
     padding-top: 32px;
     justify-content: space-between;
@@ -259,7 +294,8 @@
     color: #E7E7E7;
 }
 
-.footer_bottom_icon_container{
+.footer_bottom_icon_container {
     gap: 24px;
 }
+
 /* ================ footer section ends here ================= */
