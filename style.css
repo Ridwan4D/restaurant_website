@@ -118,7 +118,82 @@
 }
 /* ================ header section ends here ================= */
 
-
+/* ================ banner section starts here ================= */
+#banner_section{
+    height: 759px;
+    position: relative;
+}
+#banner_section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #000000A8, #00000082, #00000000), url('/image/home/banner.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.banner_container{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_content_left{
+    max-width: 550px;
+    width: 100%;
+    color: white;
+}
+.banner_content_top{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.banner_top_title{
+    font-size: 18px;
+}
+.side_line{
+    max-width: 100px;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid var(--primary-color);
+}
+.banner_content_heading{
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 66px;
+    margin-bottom: 24px;
+}
+.banner_content_desc{
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+.banner_btn_container{
+    align-items: center;
+    gap: 24px;
+}
+.banner_see_btn{
+    padding: 14px 28px;
+    border: 1px solid var(--primary-color);
+    font-size: 18px;
+}
+.search_btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    border: 1px solid var(--primary-color);
+    border-radius: 32px;
+    background-color: transparent;
+}
+.banner_content_right{
+    height: 50%;
+    align-items: end;
+}
+/* ================ banner section ends here ================= */
 
 
 
