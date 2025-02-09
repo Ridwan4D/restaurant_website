@@ -1,4 +1,4 @@
-@media(max-width:1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .container {
         padding: 0 15px;
     }
@@ -13,7 +13,51 @@
         line-height: 52px;
     }
 
+    .choose_image {
+        height: 350px;
+        width: 350px;
+    }
+
+    .newsletter_border_style_div,
+    .border_style_div {
+        height: 350px;
+        width: 350px;
+    }
+
+    .choose_content_heading {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
     /* ================ choose us section end here ================= */
+
+    /* ================ daily offer section starts here ================= */
+    .daily_offer_right {
+        width: 400px;
+    }
+
+    .daily_card_heading {
+        margin-bottom: 7px;
+    }
+
+    .daily_offer_card_img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .daily_card_title,
+    .daily_card_price {
+        font-size: 20px;
+    }
+
+    .daily_card_desc {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0;
+    }
+
+    /* ================ daily offer section end here ================= */
+
     /* ================ contact section starts here ================= */
     #contact_section {
         padding-top: 70px;
@@ -23,7 +67,15 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
     }
+
+    /* ================ contact section ends here ================= */
+    /* ================ newsletter section starts here ================= */
+    .newsletter_content_heading {
+        font-size: 33px;
+    }
 }
+
+
 
 @media(max-width: 768px) {
     .container {
@@ -303,7 +355,8 @@
         padding: 6.69px 10.54px;
         font-size: 9.69px;
     }
-    .card_wrapper{
+
+    .card_wrapper {
         margin: 0;
         padding: 0;
     }
