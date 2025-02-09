@@ -2,6 +2,18 @@
     .container {
         padding: 0 15px;
     }
+
+    /* ================ choose us section start here ================= */
+    #choose_us_section {
+        padding: 80px 0 80px;
+    }
+
+    .choose_content_heading {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    /* ================ choose us section end here ================= */
 }
 
 @media(max-width: 768px) {
@@ -18,7 +30,7 @@
     /* ================ banner section starts here ================= */
     #banner_section {
         height: auto;
-        padding: 40px 20px;
+        padding: 40px 0px;
     }
 
     .banner_content_heading {
@@ -26,10 +38,20 @@
     }
 
     /* ================ header section ends here ================= */
+    /* ================ choose us section start here ================= */
+    .choose_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    /* ================ choose section ends here ================= */
     /* ================ daily offer section start here ================= */
     .daily_offer_body {
         flex-direction: column;
     }
+
     .daily_offer_left_img {
         width: 250%;
         height: 606px;
@@ -94,7 +116,50 @@
     }
 
     /* ================ header section end here ================= */
+    /* ================ choose section start here ================= */
+    #choose_us_section {
+        padding: 0px 0 50px;
+    }
 
+    .choose_container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .choose_us_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .choose_image {
+        height: 438px;
+        max-width: 343px;
+        width: 100%;
+        object-fit: cover;
+        /* position: absolute; */
+        border-radius: 8px;
+    }
+
+    .choose_content_heading {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .choose_content_desc {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 15px;
+        padding-right: 0%;
+
+    }
+
+    .border_style_div {
+        display: none;
+    }
+
+    /* ================ choose section end here ================= */
     /* ================ banner section start here ================= */
     #banner_section {
         height: auto;

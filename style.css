@@ -254,12 +254,12 @@
 
 .border_style_div {
     height: 480px;
+    width: 552px;
     border: 2.5px solid #FF8A01;
     border-radius: 8px;
     position: absolute;
     top: 23px;
     left: 26px;
-    width: 552px;
     z-index: -1;
 }
 
