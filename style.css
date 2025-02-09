@@ -412,6 +412,70 @@
     background-color: var(--primary-color);
 }
 
+.card_item {
+    max-width: 397px;
+    width: 100%;
+}
+
+.checkout_card_img {
+    max-width: 397px;
+    height: 464px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+}
+
+.checkout_card_body {
+    margin-top: 24px;
+}
+
+.card_wrapper {
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card_wrapper .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    opacity: .5px;
+    background-color: var(--primary-color);
+}
+
+.card_body_top {
+    border-bottom: .5px solid #6C6C6C;
+}
+
+.card_body_bottom {
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout_card_title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.checkout_card_desc {
+    font-size: 18px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+
+.card_body_bottom_link {
+    font-size: 18px;
+    color: #353432;
+    text-decoration: underline;
+}
+
+.card_body_bottom_price {
+    font-size: 32px;
+    color: #353432;
+}
+
 /* ================ checkout section ends here ================= */
 
 

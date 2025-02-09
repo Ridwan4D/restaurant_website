@@ -303,6 +303,10 @@
         padding: 6.69px 10.54px;
         font-size: 9.69px;
     }
+    .card_wrapper{
+        margin: 0;
+        padding: 0;
+    }
 
     /* ================ checkout section end here ================= */
 
@@ -323,6 +327,7 @@
 
     .reservation_form {
         grid-template-columns: 1fr;
+        gap: 14px;
     }
 
     /* ================ online reservation section end here ================= */
