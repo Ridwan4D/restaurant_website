@@ -30,8 +30,12 @@
     }
 
     /* ================ choose us section end here ================= */
+    .card_wrapper {
+        margin: 0;
+    }
 
     /* ================ daily offer section starts here ================= */
+
     .daily_offer_right {
         width: 400px;
     }
@@ -100,6 +104,16 @@
 
     /* ================ header section ends here ================= */
     /* ================ choose us section start here ================= */
+    #choose_us_section {
+        padding: 80px 0;
+    }
+
+    .choose_content_heading {
+        font-size: 38px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
     .choose_container,
     .newsletter_container {
         flex-direction: column;
@@ -109,6 +123,10 @@
     }
 
     /* ================ choose section ends here ================= */
+    .card_wrapper {
+        margin: 0;
+    }
+
     /* ================ daily offer section start here ================= */
     .daily_offer_body {
         flex-direction: column;
@@ -119,6 +137,21 @@
         height: 606px;
         /* object-fit: cover;
         object-position: left; */
+    }
+
+    .daily_offer_container {
+        height: auto;
+    }
+
+    .daily_offer_left_content {
+        bottom: -528px;
+        left: 48px;
+    }
+
+    .daily_offer_right {
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 615px;
     }
 
     /* ================ daily offer section ends here ================= */
@@ -305,9 +338,18 @@
 
     .daily_offer_left_img {
         width: 250%;
-        height: 556px;
+        height: 435px;
         object-fit: cover;
-        object-position: left;
+    }
+
+    .daily_offer_left_content {
+        bottom: -395px;
+        left: 30px;
+        width: 255px;
+    }
+
+    .daily_offer_right {
+        margin-top: 436px;
     }
 
     .daily_offer_card_img {
@@ -382,7 +424,9 @@
         grid-template-columns: 1fr;
         gap: 14px;
     }
-
+    #form_submit_btn{
+        padding: 14px 34px;
+    }
     /* ================ online reservation section end here ================= */
 
     /* ================ contact section starts here ================= */
@@ -410,7 +454,7 @@
     /* ================ map section starts here ================= */
     .location_image {
         height: 490px;
-        object-position: center;
+        object-position: right;
     }
 
     /* ================ map section ends here ================= */

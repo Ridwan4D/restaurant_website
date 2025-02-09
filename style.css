@@ -217,6 +217,7 @@
     border-radius: 32px;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
+    color: white;
     cursor: pointer;
 }
 
@@ -318,9 +319,33 @@
     width: 40%;
 }
 
+
+.daily_offer_left {
+    position: relative;
+}
+
 .daily_offer_left_img {
     height: 100%;
     width: 100%;
+    position: absolute;
+}
+
+.daily_offer_left_content {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.daily_left_heading {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.daily_left_discount {
+    font-size: 56px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 60px;
 }
 
 .daily_offer_right {
@@ -402,10 +427,12 @@
     padding: 16px 24px;
     border: 2px solid var(--primary-color);
     border-radius: 32px;
+    transition: all ease .3s;
 }
 
 .checkout_tab:hover {
     cursor: pointer;
+    background-color: #fada94;
 }
 
 .checkout_tab:active {
@@ -431,13 +458,20 @@
 }
 
 .card_wrapper {
-    max-width: 1100px;
+    max-width: 1240px;
     margin: 0 60px 35px;
     padding: 20px 10px;
     overflow: hidden;
 }
 
 .card_wrapper .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    opacity: .5px;
+    background-color: var(--primary-color);
+}
+
+.swiper-pagination-bullet .swiper-pagination-bullet-active-next {
     width: 15px;
     height: 15px;
     opacity: .5px;
@@ -511,6 +545,11 @@
     text-align: center;
     color: white;
     margin-bottom: 64px;
+}
+
+#form_submit_btn {
+    font-size: 18px;
+    padding: 20px 48px;
 }
 
 .reserve_heading {
@@ -639,7 +678,7 @@
 
 /* ================ newsletter section starts here ================= */
 #newsletter_section {
-    padding: 80px 0;
+    padding: 90px 0;
 }
 
 .newsletter_container {
