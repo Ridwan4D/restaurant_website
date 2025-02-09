@@ -44,6 +44,7 @@
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .font_bold{
@@ -65,7 +66,7 @@
 }
 /* ================ reusable css classes ends here ================= */
 
-/* ================ nav section starts here ================= */
+/* ================ header section starts here ================= */
 #nav_section{
     background-color: black;
     padding: 16px 0;
@@ -78,6 +79,7 @@
     font-size: 64px;
     line-height: 40px;
     color:#fff;
+    font-weight: normal;
 }
 .nav_list_container{
     gap: 40px;
@@ -86,6 +88,9 @@
     font-size: 18px;
     line-height: 21.87px;
     color:#fff;
+}
+.nav_btn_container{
+    gap: 24px;
 }
 .desktop_hamburger_btn{
     height: 44px;
@@ -98,7 +103,20 @@
     border:none;
     outline: none;
 }
-/* ================ nav section ends here ================= */
+.mobile_hamburger_btn{
+    display: none;
+}
+.header_message_container{
+    background-color: var(--primary-color);
+    padding: 9px 0;
+    justify-content: center;
+    align-items: center;
+}
+.header_message_span{
+    font-weight: 500;
+    text-decoration: underline;
+}
+/* ================ header section ends here ================= */
 
 
 
@@ -134,6 +152,7 @@
     font-size: 64px;
     line-height: 40px;
     margin-bottom: 32px;
+    font-weight: normal;
 }
 
 .footer_top_desc{

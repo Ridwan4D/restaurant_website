@@ -7,6 +7,11 @@
     .container{
         padding: 0 15px;
     }
+    /* ================ header section start here ================= */
+    .nav_list_container{
+        display: none;
+    }
+    /* ================ header section ends here ================= */
 }
 
 
@@ -22,7 +27,39 @@
     .container{
         padding: 0 19.58px;
     }
+    .common_btn {
+        padding: 6px 12px;
+        font-size: 10px;
+    }
 
+
+    /* ================ header section start here ================= */
+    #nav_section{
+        padding: 10px 0;
+    }
+    .nav_logo{
+        font-size: 33px;
+    }
+    .nav_list_container{
+        display: none;
+    }
+    .nav_btn_container{
+        gap: 14.41px;
+    }
+    .desktop_hamburger_btn{
+        display: none;
+    }
+    .mobile_hamburger_btn{
+        display: block;
+        height: 24px;
+        width: 24px;
+        border-radius: 100%;
+        background-color: #fff;
+    }
+    .header_message{
+        font-size: 8px;
+    }
+    /* ================ header section end here ================= */
 
 
 /* ================ footer section start here ================= */
