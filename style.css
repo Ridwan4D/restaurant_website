@@ -471,13 +471,16 @@
     background-color: var(--primary-color);
 }
 
-.swiper-pagination-bullet .swiper-pagination-bullet-active-next {
+/* .swiper-pagination-bullet .swiper-pagination-bullet-active-next {
     width: 15px;
     height: 15px;
     opacity: .5px;
     background-color: var(--primary-color);
-}
-
+} */
+/* .swiper-pagination{
+    margin-top: 20px;
+    padding-top: 50px;
+} */
 .card_body_top {
     border-bottom: .5px solid #6C6C6C;
 }
@@ -596,6 +599,24 @@
 .input_group input::placeholder,
 .input_group select {
     color: white;
+}
+input[type="date"],
+input[type="time"] {
+  position: relative;
+  padding-right: 10px;
+  appearance: none; 
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%) brightness(200%);
+  position: absolute;
+  height: 1.5rem;
+  width: 1.5rem;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 #reservation_button_div {
