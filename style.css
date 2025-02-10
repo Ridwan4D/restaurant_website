@@ -986,8 +986,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 
 /* ============ blog page start ================== */
-#online_reservation_page .reserve_heading,
-.reserve_desc {
+#online_reservation_page .reserve_heading {
     color: black;
 }
 
