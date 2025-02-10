@@ -42,6 +42,10 @@
     flex-direction: column;
 }
 
+.item-center {
+    align-items: center;
+}
+
 .container {
     width: 100%;
     max-width: 1240px;
@@ -68,18 +72,23 @@
     cursor: pointer;
 }
 
-.text-lg{
+.text-lg {
     font-size: 18px;
 }
 
-#common_newsletter_section{
+#common_newsletter_section {
     background-color: #FAF6EC;
     z-index: -1;
 }
 
-.z-1{
+.z-1 {
     z-index: 1;
 }
+
+.gap-80 {
+    gap: 80px;
+}
+
 /* ================ reusable css classes ends here ================= */
 
 /* ================ header section starts here ================= */
@@ -245,6 +254,7 @@
 }
 
 .choose_container {
+    align-items: center;
     gap: 54px;
 }
 
@@ -604,23 +614,24 @@
 .input_group select {
     color: white;
 }
+
 input[type="date"],
 input[type="time"] {
-  position: relative;
-  padding-right: 10px;
-  appearance: none; 
+    position: relative;
+    padding-right: 10px;
+    appearance: none;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator,
 input[type="time"]::-webkit-calendar-picker-indicator {
-  filter: invert(100%) brightness(200%);
-  position: absolute;
-  height: 1.5rem;
-  width: 1.5rem;
-  right: 0px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
+    filter: invert(100%) brightness(200%);
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 #reservation_button_div {
@@ -702,7 +713,8 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 
 /* ================ newsletter section starts here ================= */
-#newsletter_section,#common_newsletter_section{
+#newsletter_section,
+#common_newsletter_section {
     padding: 90px 0;
 }
 
@@ -826,8 +838,50 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 
 /* ================ checkout page starts here ================= */
-.checkout_menu_container{
+.checkout_menu_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 64px 24px;
 }
+
+
+#blog_choose_us_section {
+    padding: 80px 0;
+}
+
+
+/* ================ blog page starts here ================= */
+.blog_choose_container,
+.blog_vision_container {
+    align-items: center;
+    gap: 80px;
+}
+
+.blog_vision_container {
+    margin-top: 64px;
+}
+
+#blog_choose_us_section .vision_image {
+    width: 608px;
+    height: 570px;
+}
+
+.blog_card_img_container {
+    height: 81px;
+    width: 118px;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_card_img {
+    height: 44px;
+    width: 44px;
+}
+
+#blog_choose_us_section .daily_card_title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
