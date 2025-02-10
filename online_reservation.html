@@ -19,9 +19,8 @@
                     <li><a href="index.html" class="nav_link font_cabin text-lg">Home</a></li>
                     <li><a href="menu.html" class="nav_link font_cabin text-lg">Menu</a></li>
                     <li><a href="blog.html" class="nav_link font_cabin text-lg">Blog</a></li>
-                    <li><a href="online_reservation.html" class="nav_link font_cabin text-lg">Online Reservation</a>
-                    </li>
-                    <li><a href="#" class="nav_link font_cabin text-lg">Contact</a></li>
+                    <li><a href="#" class="nav_link font_cabin text-lg">Online Reservation</a></li>
+                    <li><a href="contact.html" class="nav_link font_cabin text-lg">Contact</a></li>
                 </ul>
                 <div class="nav_btn_container flex">
                     <button class="desktop_hamburger_btn"><img src="image/home/dasktop_humbarger.svg"
@@ -40,73 +39,50 @@
     <!-- header section ends here -->
 
 
-    <!-- contact info section starts here -->
-    <section id="contact_info_section">
-        <div class="contact_info_container flex">
-            <!-- contact form left -->
-            <div class="contact_form_left">
-                <h2 class="font_playFire contact_form_left_heading">Contact Information</h2>
-                <p class="font_cabin contact_form_left_para">Reference site about Lorem Ipsum, giving information on
-                    its
-                    origins, as well as</p>
-                <div class="contact_form_left_card_container">
-                    <!-- contact card -->
-                    <div class="contact_form_left_card">
-                        <div class="contact_card_icon_div">
-                            <img src="image/contact/call.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="font_cabin contact_card_title">Phone Number</p>
-                            <h3 class="font_cabin contact_card_desc">(62) 1829017</h3>
-                        </div>
-                    </div>
-                    <div class="contact_form_left_card">
-                        <div class="contact_card_icon_div">
-                            <img src="image/contact/email.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="font_cabin contact_card_title">Email</p>
-                            <h3 class="font_cabin contact_card_desc">Hello@studio.co</h3>
-                        </div>
-                    </div>
-                    <div class="contact_form_left_card">
-                        <div class="contact_card_icon_div">
-                            <img src="image/contact/location_on.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="font_cabin contact_card_title">Map Street</p>
-                            <h3 class="font_cabin contact_card_desc">John Bucarest St. 199</h3>
-                        </div>
-                    </div>
-                </div>
+    <!-- Online Reservation section start -->
+    <section id="online_reservation_page">
+        <div class="reservation_container container">
+            <div class="reserve_header">
+                <h1 class="font_playFire reserve_heading">Online Reservation</h1>
+                <p class="font_cabin reserve_desc">In publishing and graphic design, Lorem ipsum.</p>
             </div>
-            <!-- contact form right -->
-            <div>
-                <form class="contact_page_form">
-                    <div class="contact_page_form_div">
-                        <label class="font_cabin" for="name">Full Name</label>
-                        <input type="text" name="" id="name" class="contact_input_group">
-                    </div>
-                    <div class="contact_page_form_div">
-                        <label class="font_cabin" for="email">Email</label>
-                        <input type="email" name="" id="email" class="contact_input_group">
-                    </div>
-                    <div class="contact_page_form_div">
-                        <label class="font_cabin" for="message">Message</label>
-                        <textarea name="message" id="message" class="contact_text_group" cols="50" rows="15"></textarea>
-                    </div>
-                    <div>
-                        <button class="common_btn contact_page_send_btn" id="banner_button">Send</button>
-                    </div>
-                </form>
+            <form class="reservation_form">
+                <div class="input_group reservation_page_inputs" >
+                    <input type="text" placeholder="Full Name">
+                    <img src="image/home/Profile.svg" alt="">
+                </div>
+                <div class="input_group reservation_page_inputs" >
+                    <input type="tel" placeholder="Phone Number">
+                    <img src="image/home/Call.svg" alt="">
+                </div>
+                <div class="input_group reservation_page_inputs" >
+                    <input type="email" placeholder="Email Address">
+                    <img src="image/home/Message.svg" alt="">
+                </div>
+                <div class="input_group reservation_page_inputs" >
+                    <select>
+                        <option value="" disabled selected>Number of Persons</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 Persons</option>
+                        <option value="3">3 Persons</option>
+                        <option value="4">4 Persons</option>
+                        <option value="5+">5+ Persons</option>
+                    </select>
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="input_group reservation_page_inputs" >
+                    <input type="date">
+                </div>
+                <div class="input_group reservation_page_inputs" >
+                    <input type="time">
+                </div>
+            </form>
+            <div id="reservation_button_div">
+                <button type="submit" class="common_btn" id="form_submit_btn">Submit Your Reservation</button>
             </div>
         </div>
     </section>
-
-    <!-- contact info section end here -->
-
-
-
+    <!-- Online Reservation section end -->
 
 
     <!-- contact section starts here -->
@@ -154,7 +130,6 @@
     <!-- contact section ends here -->
 
 
-
     <!-- map section starts here -->
     <section id="map_section">
         <div class="map_container container">
@@ -162,8 +137,6 @@
         </div>
     </section>
     <!-- map section ends here -->
-
-
 
 
     <!-- news letter section starts here -->
@@ -192,7 +165,6 @@
     <!-- news letter section ends here -->
 
 
-
     <!-- footer section starts here -->
     <footer id="footer_section">
         <div class="footer_container container">
@@ -204,12 +176,11 @@
                         text commonly</p>
                     <ul class="footer_top_list_container flex">
                         <li class="font_cabin"><a href="index.html" class="footer_nav_link">Home</a></li>
-                        <li class="font_cabin"><a href="menu.html" class="footer_nav_link">Menu</a></li>
+                        <li class="font_cabin"><a href="#" class="footer_nav_link">Menu</a></li>
                         <li class="font_cabin"><a href="blog.html" class="footer_nav_link">Blog</a></li>
-                        <li class="font_cabin"><a href="online_reservation.html" class="footer_nav_link">Online
-                                Reservation</a></li>
+                        <li class="font_cabin"><a href="#" class="footer_nav_link">Services</a></li>
                         <li class="font_cabin"><a href="#" class="footer_nav_link">Help</a></li>
-                        <li class="font_cabin"><a href="#" class="footer_nav_link">Contact</a></li>
+                        <li class="font_cabin"><a href="contact.html" class="footer_nav_link">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer_top_right flex flex_col">

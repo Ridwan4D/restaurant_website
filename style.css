@@ -531,7 +531,8 @@
 
 
 /* ================ online reservation section start here ================= */
-#online_reservation {
+#online_reservation,
+#online_reservation_page {
     position: relative;
     height: 660px;
     display: flex;
@@ -567,6 +568,7 @@
 #form_submit_btn {
     font-size: 18px;
     padding: 20px 48px;
+    margin-top: 48px;
 }
 
 .reserve_heading {
@@ -974,10 +976,28 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     background-color: #F7F7F6;
 }
 
-.contact_text_group{
+.contact_text_group {
     height: auto;
 }
 
-.contact_page_send_btn{
+.contact_page_send_btn {
     padding: 14px 36px;
+}
+
+
+/* ============ blog page start ================== */
+#online_reservation_page .reserve_heading,
+.reserve_desc {
+    color: black;
+}
+
+.reservation_page_inputs {
+    border: 1px solid #E8DCC6;
+    color: #999999;
+}
+
+.reservation_page_inputs select,
+.reservation_page_inputs input,
+.reservation_page_inputs input::placeholder {
+    color: #999999;
 }

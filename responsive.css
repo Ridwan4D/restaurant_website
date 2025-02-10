@@ -112,7 +112,8 @@
 
     /* ================ header section ends here ================= */
     /* ================ banner section starts here ================= */
-    #banner_section {
+    #banner_section,
+    #online_reservation_page {
         height: auto;
         padding: 40px 0px;
     }
