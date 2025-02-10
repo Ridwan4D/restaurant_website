@@ -246,6 +246,10 @@
         width: 100%;
         height: 414px;
     }
+
+    .contact_info_container {
+        flex-direction: column;
+    }
 }
 
 

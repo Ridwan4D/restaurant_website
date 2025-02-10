@@ -1,0 +1,233 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Restaurant Site</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav_section">
+            <div class="nav_container container flex">
+                <h2 class="nav_logo font_jomhuria">Logo</h2>
+                <ul class="nav_list_container flex">
+                    <li><a href="index.html" class="nav_link font_cabin text-lg">Home</a></li>
+                    <li><a href="menu.html" class="nav_link font_cabin text-lg">Menu</a></li>
+                    <li><a href="blog.html" class="nav_link font_cabin text-lg">Blog</a></li>
+                    <li><a href="#" class="nav_link font_cabin text-lg">Contact</a></li>
+                </ul>
+                <div class="nav_btn_container flex">
+                    <button class="desktop_hamburger_btn"><img src="image/home/dasktop_humbarger.svg"
+                            alt="hamburger_image" class="desktop_hamburger_btn_img"></button>
+                    <button class="mobile_hamburger_btn"><img src="image/home/mobile_hubager.svg" alt="hamburger_image"
+                            class="mobile_hamburger_btn_img"></button>
+                    <button class="common_btn">Reserve Table</button>
+                </div>
+            </div>
+        </nav>
+        <div class="header_message_container flex">
+            <p class="header_message font_cabin">Join My Restaurant Rewards, win Our Special <span
+                    class="header_message_span">Guest Token</span>!</p>
+        </div>
+    </header>
+    <!-- header section ends here -->
+
+
+    <!-- contact info section starts here -->
+    <section id="contact_info_section">
+        <div class="contact_info_container flex">
+            <!-- contact form left -->
+            <div class="contact_form_left">
+                <h2 class="font_playFire contact_form_left_heading">Contact Information</h2>
+                <p class="font_cabin contact_form_left_para">Reference site about Lorem Ipsum, giving information on
+                    its
+                    origins, as well as</p>
+                <div class="contact_form_left_card_container">
+                    <!-- contact card -->
+                    <div class="contact_form_left_card">
+                        <div class="contact_card_icon_div">
+                            <img src="image/contact/call.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="font_cabin contact_card_title">Phone Number</p>
+                            <h3 class="font_cabin contact_card_desc">(62) 1829017</h3>
+                        </div>
+                    </div>
+                    <div class="contact_form_left_card">
+                        <div class="contact_card_icon_div">
+                            <img src="image/contact/email.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="font_cabin contact_card_title">Email</p>
+                            <h3 class="font_cabin contact_card_desc">Hello@studio.co</h3>
+                        </div>
+                    </div>
+                    <div class="contact_form_left_card">
+                        <div class="contact_card_icon_div">
+                            <img src="image/contact/location_on.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="font_cabin contact_card_title">Map Street</p>
+                            <h3 class="font_cabin contact_card_desc">John Bucarest St. 199</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact form right -->
+            <div>
+                <form class="contact_page_form">
+                    <div class="contact_page_form_div">
+                        <label class="font_cabin" for="name">Full Name</label>
+                        <input type="text" name="" id="name" class="contact_input_group">
+                    </div>
+                    <div class="contact_page_form_div">
+                        <label class="font_cabin" for="email">Email</label>
+                        <input type="email" name="" id="email" class="contact_input_group">
+                    </div>
+                    <div class="contact_page_form_div">
+                        <label class="font_cabin" for="message">Message</label>
+                        <textarea name="message" id="message" class="contact_text_group" cols="50" rows="15"></textarea>
+                    </div>
+                    <div>
+                        <button class="common_btn contact_page_send_btn" id="banner_button">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact info section end here -->
+
+
+
+
+
+    <!-- contact section starts here -->
+    <section id="contact_section">
+        <div class="container contact_container">
+            <!-- Business Hours -->
+            <div class="contact-box font_cabin">
+                <div class="home_contact_icon_div">
+                    <img src="image/home/clock.svg" alt="">
+                </div>
+                <div>
+                    <h2 class="contact-heading font_playfair">Business Hours</h2>
+                    <p>Sat - Sun: <span class="home_contact_span">12:00 PM - 11:00 PM</span></p>
+                    <p>Mon - Fri: <span class="home_contact_span">11:00 AM - 10:00 PM</span></p>
+                </div>
+            </div>
+
+            <!-- Locations -->
+            <div class="contact-box font_cabin">
+                <div class="home_contact_icon_div">
+                    <img src="image/home/home.svg" alt="">
+                </div>
+                <div>
+                    <h2 class="contact-heading font_playfair">Our Locations</h2>
+                    <div class="home_contact-location">
+                        <p>Sat - Sun:</p>
+                        <p>Shere hydrabad Nagar, Dilli, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-box font_cabin">
+                <div class="home_contact_icon_div">
+                    <img src="image/home/phone_ring.svg" alt="">
+                </div>
+                <div>
+                    <h2 class="contact-heading font_playfair">Contact</h2>
+                    <p>Email: <span class="home_contact_span">Restaurant@gmail.com</span></p>
+                    <p>Phone: <span class="home_contact_span">+8673453463523</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends here -->
+
+
+
+    <!-- map section starts here -->
+    <section id="map_section">
+        <div class="map_container container">
+            <img src="image/home/location.png" alt="" class="location_image">
+        </div>
+    </section>
+    <!-- map section ends here -->
+
+
+
+
+    <!-- news letter section starts here -->
+    <section id="common_newsletter_section">
+        <div class="container newsletter_container flex">
+            <div class="newsletter_us_right z-1">
+                <img src="image/home/choose_us.png" alt="" class="choose_image newsletter_image">
+                <div class="newsletter_border_style_div lg-hidden"></div>
+            </div>
+            <div class="newsletter_left">
+                <div class="newsletter_content_top">
+                    <p class="text_orange newsletter_top_title">Newsletter</p>
+                    <div class="side_line"></div>
+                </div>
+                <h1 class="font_playfair newsletter_content_heading">Subscribe Newsletter & get Latest Offer!</h1>
+                <p class="font_cabin newsletter_desc text-lg">In publishing and graphic design, Lorem ipsum is a
+                    placeholder
+                    text commonly used to demonstrate the visual form of a document.</p>
+                <form class="banner_btn_container flex">
+                    <input type="text" placeholder="Write your email" class="newsletter_input">
+                    <button class="common_btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- news letter section ends here -->
+
+
+
+    <!-- footer section starts here -->
+    <footer id="footer_section">
+        <div class="footer_container container">
+            <div class="footer_top_layer flex">
+                <div class="footer_top_left">
+                    <h2 class="footer_top_logo font_jomhuria">Logo</h2>
+                    <p class="footer_top_desc font_cabin text-lg">In publishing and graphic design, Lorem ipsum is a
+                        placeholder
+                        text commonly</p>
+                    <ul class="footer_top_list_container flex">
+                        <li class="font_cabin"><a href="index.html" class="footer_nav_link">Home</a></li>
+                        <li class="font_cabin"><a href="menu.html" class="footer_nav_link">Menu</a></li>
+                        <li class="font_cabin"><a href="blog.html" class="footer_nav_link">Blog</a></li>
+                        <li class="font_cabin"><a href="#" class="footer_nav_link">Services</a></li>
+                        <li class="font_cabin"><a href="#" class="footer_nav_link">Help</a></li>
+                        <li class="font_cabin"><a href="#" class="footer_nav_link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer_top_right flex flex_col">
+                    <h3 class="footer_top_right_heading font_cabin text_orange">Get the app</h3>
+                    <div><img src="image/home/Mobile app store badge.svg" alt=""></div>
+                    <div><img src="image/home/play store.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="footer_bottom_layer flex">
+                <p class="font_cabin">© 2077 Untitled UI. All rights reserved.</p>
+                <div class="footer_bottom_icon_container flex">
+                    <img src="image/home/twitter.svg" alt="">
+                    <img src="image/home/linkedin.svg" alt="">
+                    <img src="image/home/facebook.svg" alt="">
+                    <img src="image/home/github.svg" alt="">
+                    <img src="image/home/Vectory.svg" alt="">
+                    <img src="image/home/dribble.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
