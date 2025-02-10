@@ -446,7 +446,9 @@
 
     .home_contact-location> :nth-child(2) {
         text-align: left;
+        font-weight: normal;
         width: auto;
+        font-size: 16px;
     }
 
     /* ================ contact section ends here ================= */

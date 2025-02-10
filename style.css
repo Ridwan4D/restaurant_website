@@ -68,6 +68,10 @@
     cursor: pointer;
 }
 
+.text-lg{
+    font-size: 18px;
+}
+
 /* ================ reusable css classes ends here ================= */
 
 /* ================ header section starts here ================= */
@@ -93,7 +97,6 @@
 }
 
 .nav_link {
-    font-size: 18px;
     line-height: 21.87px;
     color: #fff;
 }
@@ -173,10 +176,6 @@
     margin-bottom: 8px;
 }
 
-.banner_top_title {
-    font-size: 18px;
-}
-
 .side_line {
     max-width: 100px;
     width: 100%;
@@ -192,7 +191,6 @@
 }
 
 .banner_content_desc {
-    font-size: 18px;
     line-height: 26px;
     margin-bottom: 48px;
 }
@@ -273,7 +271,6 @@
 }
 
 .choose_content_desc {
-    font-size: 18px;
     color: #6C6C6C;
     line-height: 28px;
     margin-bottom: 40px;
@@ -408,7 +405,6 @@
 }
 
 .checkout_desc {
-    font-size: 18px;
     color: #6C6C6C;
 }
 
@@ -755,7 +751,6 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 .newsletter_desc {
-    font-size: 18px;
     color: #6C6C6C;
     margin-bottom: 40px;
 }
@@ -782,7 +777,6 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 .footer_top_desc {
-    font-size: 18px;
     line-height: 28px;
     max-width: 320px;
     margin-bottom: 32px;
