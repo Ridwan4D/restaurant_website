@@ -72,6 +72,14 @@
     font-size: 18px;
 }
 
+#common_newsletter_section{
+    background-color: #FAF6EC;
+    z-index: -1;
+}
+
+.z-1{
+    z-index: 1;
+}
 /* ================ reusable css classes ends here ================= */
 
 /* ================ header section starts here ================= */
@@ -694,7 +702,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 
 /* ================ newsletter section starts here ================= */
-#newsletter_section {
+#newsletter_section,#common_newsletter_section{
     padding: 90px 0;
 }
 
@@ -810,3 +818,16 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 /* ================ footer section ends here ================= */
+
+
+
+
+
+
+
+/* ================ checkout page starts here ================= */
+.checkout_menu_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 64px 24px;
+}

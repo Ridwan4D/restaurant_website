@@ -77,11 +77,18 @@
     .newsletter_content_heading {
         font-size: 33px;
     }
+    
+    
+    /* ================ checkout page newsletter starts here ================= */
+    /*==================== checkout page starts here ================= */
+    #common_newsletter_section .newsletter_container {
+        flex-direction: column;
+    }
 }
 
 
 
-@media(max-width: 768px) {
+@media(max-width: 769px) {
     .container {
         padding: 0 15px;
     }
@@ -163,6 +170,17 @@
     .contact_container {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
+    }
+    /* ================ contact section ends here ================= */
+
+    /*==================== checkout page starts here ================= */
+    .checkout_menu_container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 32px;
+    }
+
+    #common_newsletter_section > .newsletter_container {
+        flex-direction: column;
     }
 }
 
@@ -520,4 +538,11 @@
     }
 
     /* ================ footer section ends here ================= */
+
+
+    /* ================ checkout page starts here ================= */
+    .checkout_menu_container{
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
 }
