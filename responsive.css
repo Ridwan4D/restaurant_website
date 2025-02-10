@@ -375,6 +375,9 @@
         background: none;
     }
 
+    .banner_content_left{
+        margin: 40px 0;
+    }
     .banner_content_top {
         display: none;
     }
